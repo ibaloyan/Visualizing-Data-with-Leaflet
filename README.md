@@ -1,9 +1,9 @@
 # Visualizing-Data-with-Leaflet
-Visualizing earthquake data with Leaflet. Technologies => Javascript, Leaflet.js, HTML, CCS, Heroku PHP deployment 
+Visualizing Earthquake Data with Leaflet. Technologies => Javascript, Leaflet.js, HTML, CCS, Heroku PHP deployment 
 
 ![My Dark Map](Images/MyDarkMap.PNG)
 
-• The USGS provides earthquake data in different formats, updated every 5 minutes. On the USGS GeoJSON Feed page and when you click on 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data.
+• The data is sourced from U.S. Geological Survey (USGS) site, the USGS provides earthquake data in different formats, updated every 5 minutes. On the USGS GeoJSON Feed page and when you click on 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data.
 
 • Imported & Visualized the Data.
 
