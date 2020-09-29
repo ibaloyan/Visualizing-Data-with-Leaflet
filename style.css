@@ -1,33 +1,35 @@
-/* remove default margin and padding from body */
-body {
+html,
+body,
+#mapid {
+  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
 }
 
-/* set map, body, and html to 100% of the screen size */
-#map,
-body,
-html {
-  height: 100%;
-}
-
-.info {
-  padding: 6px 8px;
-  font: 14px/16px Arial, Helvetica, sans-serif;
-  background: lavenderblush;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
-  border-radius: 5px
-}
-
 .legend {
-  line-height: 16px;
-  color:blueviolet
+  padding: 10px;
+  line-height: 18px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
 }
 
 .legend i {
-  width: 16px;
-  height: 16px;
   float: left;
+  width: 18px;
+  height: 18px;
   margin-right: 8px;
-  opacity: 0.8;
-} 
+  opacity: 0.7;
+}
+
+.leaflet-bottom.leaflet-left {
+  width: 90%;
+}
+
+.leaflet-control-container .leaflet-timeline-controls {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  margin-bottom: 15px;
+}
